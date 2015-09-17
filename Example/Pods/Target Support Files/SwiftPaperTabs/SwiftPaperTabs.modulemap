@@ -1,0 +1,6 @@
+framework module SwiftPaperTabs {
+  umbrella header "SwiftPaperTabs-umbrella.h"
+
+  export *
+  module * { export * }
+}

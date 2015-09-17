@@ -1,0 +1,14 @@
+PODS:
+  - SwiftPaperTabs (0.1.0)
+
+DEPENDENCIES:
+  - SwiftPaperTabs (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftPaperTabs:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftPaperTabs: e01fc60843ba675418d38338189b63abf611fd05
+
+COCOAPODS: 0.38.2
