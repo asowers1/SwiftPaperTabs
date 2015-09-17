@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SwiftPaperTabs_Example', :exclusive => true do
+  pod "SwiftPaperTabs", :path => "../"
+end
+
+target 'SwiftPaperTabs_Tests', :exclusive => true do
+  pod "SwiftPaperTabs", :path => "../"
+
+  
+end
