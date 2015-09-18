@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E4D0027A4936AAEB6404B9AD65BD667 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E4CC8B7EBDF7830C492BD0C50D77D /* ReplaceMe.swift */; };
+		4984C21E1BAB6FAA004142F0 /* SPTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4984C21D1BAB6FAA004142F0 /* SPTView.swift */; settings = {ASSET_TAGS = (); }; };
 		4B1C0FFF8A4F9E76C9A622A7DB00DFA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810607D0505A09599AD943ED336C393D /* Foundation.framework */; };
 		5C277D6A81E7E370CFD3944B5E832971 /* Pods-SwiftPaperTabs_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2713BBA6F572456C741300FA4EA71C13 /* Pods-SwiftPaperTabs_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61DDCD882B43F7F9C8220AB443BD980F /* SwiftPaperTabs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EBE1E2020BBC129FDB9DC97F9F57FE4 /* SwiftPaperTabs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,6 +57,8 @@
 		3A4DB9D84FD12D7C6A0668DB86484849 /* Pods-SwiftPaperTabs_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftPaperTabs_Example-umbrella.h"; sourceTree = "<group>"; };
 		44A3ED42067BAAABB435E8AA7340F94D /* Pods-SwiftPaperTabs_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPaperTabs_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4793C1A3BFE70C65B524D31C050014CF /* Pods-SwiftPaperTabs_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPaperTabs_Tests-resources.sh"; sourceTree = "<group>"; };
+		4984C21D1BAB6FAA004142F0 /* SPTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTView.swift; sourceTree = "<group>"; };
+		4984C21F1BAB72B2004142F0 /* SPTView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPTView.xib; sourceTree = "<group>"; };
 		57D359E43810E0D9DEBFB2D0AEA087AB /* Pods-SwiftPaperTabs_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPaperTabs_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6634B7ACCB35C873C38079DEDABF9130 /* Pods-SwiftPaperTabs_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPaperTabs_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A838DA5765673813E1176402B88A7AD /* SwiftPaperTabs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPaperTabs.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +72,6 @@
 		C58EB2AFDFA238349FD4C002C52EA5D2 /* SwiftPaperTabs-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftPaperTabs-Private.xcconfig"; sourceTree = "<group>"; };
 		C721F9A446DA1B3B8C7B1CCA12D71C2B /* Pods-SwiftPaperTabs_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftPaperTabs_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CDEC7C428CB57D0A68B62E19C1C1E18F /* Pods_SwiftPaperTabs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPaperTabs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE8E4CC8B7EBDF7830C492BD0C50D77D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		CEA2C58C11D680CCBBEB3D0F0B8B2BAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC214DA836610861D83754B69DB6DEE6 /* SwiftPaperTabs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPaperTabs-prefix.pch"; sourceTree = "<group>"; };
 		DC77094847C7AD663A410833598FAF60 /* SwiftPaperTabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPaperTabs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -235,7 +236,8 @@
 		EEBBFB03C8704740EE7870205922E779 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CE8E4CC8B7EBDF7830C492BD0C50D77D /* ReplaceMe.swift */,
+				4984C21D1BAB6FAA004142F0 /* SPTView.swift */,
+				4984C21F1BAB72B2004142F0 /* SPTView.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -356,6 +358,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SPT;
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 			};
@@ -403,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE6E3EB5F796956C792D6EAC2EA2F9D9 /* Pods-SwiftPaperTabs_Example-dummy.m in Sources */,
+				4984C21E1BAB6FAA004142F0 /* SPTView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +421,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E4D0027A4936AAEB6404B9AD65BD667 /* ReplaceMe.swift in Sources */,
 				991FA7151ED37A072AF18DD3964FC8FB /* SwiftPaperTabs-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -669,6 +672,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFD7854121E556C02ECF976B7302D6D6 /* Pods-SwiftPaperTabs_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -698,6 +702,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 79B1841DB97E1748E740E04F70E3DE9E /* Pods-SwiftPaperTabs_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
