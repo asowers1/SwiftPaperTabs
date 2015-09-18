@@ -7,40 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4984C21E1BAB6FAA004142F0 /* SPTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4984C21D1BAB6FAA004142F0 /* SPTView.swift */; settings = {ASSET_TAGS = (); }; };
-		4B1C0FFF8A4F9E76C9A622A7DB00DFA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810607D0505A09599AD943ED336C393D /* Foundation.framework */; };
+		13FB7A54F67A14C393213464BCAAB093 /* SwiftPaperTabs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B28D045B5EE39BF11EF134257B60FD /* SwiftPaperTabs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49FDFAF61BACB7D500EF9798 /* SPTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38077A617BD38FA0993304FBE58C4091 /* SPTView.swift */; settings = {ASSET_TAGS = (); }; };
+		49FDFAF71BACB7D900EF9798 /* SPTObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99917F37F2C5ADE558B452603F71F65C /* SPTObject.swift */; settings = {ASSET_TAGS = (); }; };
+		49FDFAF81BACB8B800EF9798 /* SPTObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99917F37F2C5ADE558B452603F71F65C /* SPTObject.swift */; settings = {ASSET_TAGS = (); }; };
+		49FDFAF91BACB8BF00EF9798 /* SPTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38077A617BD38FA0993304FBE58C4091 /* SPTView.swift */; settings = {ASSET_TAGS = (); }; };
+		49FDFAFA1BACB8C900EF9798 /* SPTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38077A617BD38FA0993304FBE58C4091 /* SPTView.swift */; settings = {ASSET_TAGS = (); }; };
+		49FDFAFB1BACB8CE00EF9798 /* SPTObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99917F37F2C5ADE558B452603F71F65C /* SPTObject.swift */; settings = {ASSET_TAGS = (); }; };
+		4B1C0FFF8A4F9E76C9A622A7DB00DFA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FE67A783157437510BBA6309AC9443 /* Foundation.framework */; };
 		5C277D6A81E7E370CFD3944B5E832971 /* Pods-SwiftPaperTabs_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2713BBA6F572456C741300FA4EA71C13 /* Pods-SwiftPaperTabs_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61DDCD882B43F7F9C8220AB443BD980F /* SwiftPaperTabs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EBE1E2020BBC129FDB9DC97F9F57FE4 /* SwiftPaperTabs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		738556F6EE8E78A61F685C7522C0F864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810607D0505A09599AD943ED336C393D /* Foundation.framework */; };
+		6EF7B42C9280800D709823A9505EF8E9 /* SPTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38077A617BD38FA0993304FBE58C4091 /* SPTView.swift */; };
+		738556F6EE8E78A61F685C7522C0F864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FE67A783157437510BBA6309AC9443 /* Foundation.framework */; };
 		80BD4D3883F88ADDE7B7B4CA8C8692C6 /* Pods-SwiftPaperTabs_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA8760A306047CE667D616824922E4 /* Pods-SwiftPaperTabs_Tests-dummy.m */; };
-		97AC35AAF840E005B91924FBCE12DE9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 810607D0505A09599AD943ED336C393D /* Foundation.framework */; };
-		991FA7151ED37A072AF18DD3964FC8FB /* SwiftPaperTabs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB6E7DA8F341DBB4202CA1262A0D50D /* SwiftPaperTabs-dummy.m */; };
+		819F0F4D21908CA1F0C2B65019C68B6E /* SwiftPaperTabs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A838DA5765673813E1176402B88A7AD /* SwiftPaperTabs.bundle */; };
 		AE6E3EB5F796956C792D6EAC2EA2F9D9 /* Pods-SwiftPaperTabs_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3659DD19EAA3288C6F0FDFB4AC6EA951 /* Pods-SwiftPaperTabs_Example-dummy.m */; };
-		B21B0700FDD9DCFC81E29DA97BAAB0FE /* SwiftPaperTabs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A838DA5765673813E1176402B88A7AD /* SwiftPaperTabs.bundle */; };
 		C2DAA92110C9459ADC73D1A5267A801A /* Pods-SwiftPaperTabs_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4DB9D84FD12D7C6A0668DB86484849 /* Pods-SwiftPaperTabs_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA87BF5E3437F3FF106FFE12540543A /* SPTObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99917F37F2C5ADE558B452603F71F65C /* SPTObject.swift */; };
+		FC05A7DB91945BEB03F8FAC4B7EACF84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FE67A783157437510BBA6309AC9443 /* Foundation.framework */; };
+		FCC9437C472913666DB70DEE93FEB8AA /* SwiftPaperTabs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DD707355811316B98999AE77A13FC5 /* SwiftPaperTabs-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		230C10639D7F78F4EA5D40A30F9B7DFE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D20A4FE6456428C9F5EB1C3CFD6D9145;
-			remoteInfo = SwiftPaperTabs;
-		};
-		3883E088D0ED8D6887E5133B6D301338 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D20A4FE6456428C9F5EB1C3CFD6D9145;
-			remoteInfo = SwiftPaperTabs;
-		};
-		D4875DC99D3086806C4AB070CF367D08 /* PBXContainerItemProxy */ = {
+		13F94D46D15067361ABB85269C1341F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 40EB75EDFDC49101E120CCD60B1293C0;
 			remoteInfo = "SwiftPaperTabs-SwiftPaperTabs";
+		};
+		6A0F20003B0A54163E76E314534FFA49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500C9390D1D0E1FAD05375FDA9DB09FA;
+			remoteInfo = SwiftPaperTabs;
+		};
+		E00D96C1551CFD92B6C7A91761ADF5ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500C9390D1D0E1FAD05375FDA9DB09FA;
+			remoteInfo = SwiftPaperTabs;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -54,30 +61,30 @@
 		2AE8979BD3D40DF80C92F9E596C48C64 /* SwiftPaperTabs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPaperTabs.xcconfig; sourceTree = "<group>"; };
 		2F4025135A89F6A9AA78E3013B4A1CE3 /* Pods-SwiftPaperTabs_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPaperTabs_Example-resources.sh"; sourceTree = "<group>"; };
 		3659DD19EAA3288C6F0FDFB4AC6EA951 /* Pods-SwiftPaperTabs_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftPaperTabs_Example-dummy.m"; sourceTree = "<group>"; };
+		38077A617BD38FA0993304FBE58C4091 /* SPTView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPTView.swift; sourceTree = "<group>"; };
 		3A4DB9D84FD12D7C6A0668DB86484849 /* Pods-SwiftPaperTabs_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftPaperTabs_Example-umbrella.h"; sourceTree = "<group>"; };
 		44A3ED42067BAAABB435E8AA7340F94D /* Pods-SwiftPaperTabs_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPaperTabs_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4793C1A3BFE70C65B524D31C050014CF /* Pods-SwiftPaperTabs_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPaperTabs_Tests-resources.sh"; sourceTree = "<group>"; };
-		4984C21D1BAB6FAA004142F0 /* SPTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTView.swift; sourceTree = "<group>"; };
-		4984C21F1BAB72B2004142F0 /* SPTView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPTView.xib; sourceTree = "<group>"; };
 		57D359E43810E0D9DEBFB2D0AEA087AB /* Pods-SwiftPaperTabs_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPaperTabs_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6634B7ACCB35C873C38079DEDABF9130 /* Pods-SwiftPaperTabs_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPaperTabs_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A838DA5765673813E1176402B88A7AD /* SwiftPaperTabs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPaperTabs.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FB6E7DA8F341DBB4202CA1262A0D50D /* SwiftPaperTabs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftPaperTabs-dummy.m"; sourceTree = "<group>"; };
+		75DD707355811316B98999AE77A13FC5 /* SwiftPaperTabs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftPaperTabs-dummy.m"; sourceTree = "<group>"; };
 		79B1841DB97E1748E740E04F70E3DE9E /* Pods-SwiftPaperTabs_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPaperTabs_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7FDA8760A306047CE667D616824922E4 /* Pods-SwiftPaperTabs_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftPaperTabs_Tests-dummy.m"; sourceTree = "<group>"; };
-		810607D0505A09599AD943ED336C393D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8EBE1E2020BBC129FDB9DC97F9F57FE4 /* SwiftPaperTabs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPaperTabs-umbrella.h"; sourceTree = "<group>"; };
+		99917F37F2C5ADE558B452603F71F65C /* SPTObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SPTObject.swift; sourceTree = "<group>"; };
 		B5FF513423EB21EE447E0C2DB8D19E3D /* Pods-SwiftPaperTabs_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPaperTabs_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B7B28D045B5EE39BF11EF134257B60FD /* SwiftPaperTabs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPaperTabs-umbrella.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1FE67A783157437510BBA6309AC9443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C58EB2AFDFA238349FD4C002C52EA5D2 /* SwiftPaperTabs-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftPaperTabs-Private.xcconfig"; sourceTree = "<group>"; };
 		C721F9A446DA1B3B8C7B1CCA12D71C2B /* Pods-SwiftPaperTabs_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftPaperTabs_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CDEC7C428CB57D0A68B62E19C1C1E18F /* Pods_SwiftPaperTabs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPaperTabs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA2C58C11D680CCBBEB3D0F0B8B2BAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC214DA836610861D83754B69DB6DEE6 /* SwiftPaperTabs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPaperTabs-prefix.pch"; sourceTree = "<group>"; };
-		DC77094847C7AD663A410833598FAF60 /* SwiftPaperTabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPaperTabs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D74A326EAFFE08F0AE68DA400F5A64 /* Pods-SwiftPaperTabs_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPaperTabs_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EFD7854121E556C02ECF976B7302D6D6 /* Pods-SwiftPaperTabs_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPaperTabs_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EFED48E3E88B4DF237B8F35DB291CFA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1357A60B8BE1C53020F04DAED1A743E /* SwiftPaperTabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPaperTabs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8883A3935396359CE0C6EF23A9ED74C /* Pods-SwiftPaperTabs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPaperTabs_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FEE6A5B9E20155B29E3DD7F2D0409536 /* Pods-SwiftPaperTabs_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftPaperTabs_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,11 +98,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32A59994432D362E417B40DBDDA347E4 /* Frameworks */ = {
+		148D04B65AB3043797A922C4BF2B2AF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97AC35AAF840E005B91924FBCE12DE9B /* Foundation.framework in Frameworks */,
+				FC05A7DB91945BEB03F8FAC4B7EACF84 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,10 +124,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14BA478D2259B4423D2FEFD194ECD262 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				99917F37F2C5ADE558B452603F71F65C /* SPTObject.swift */,
+				38077A617BD38FA0993304FBE58C4091 /* SPTView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		23008FAAEEBD53801960EF42A5FB8677 /* SwiftPaperTabs */ = {
 			isa = PBXGroup;
 			children = (
-				F60504FAE95A599AE07CEF399928BA32 /* Pod */,
+				4AAFCAEB2229CD6383242E24D3EEE261 /* Pod */,
 				C3D471DD13756549A35462F8076C49BF /* Support Files */,
 			);
 			name = SwiftPaperTabs;
@@ -145,10 +161,18 @@
 			path = "Target Support Files/Pods-SwiftPaperTabs_Example";
 			sourceTree = "<group>";
 		};
+		4AAFCAEB2229CD6383242E24D3EEE261 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				14BA478D2259B4423D2FEFD194ECD262 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				810607D0505A09599AD943ED336C393D /* Foundation.framework */,
+				C1FE67A783157437510BBA6309AC9443 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -196,9 +220,9 @@
 				263753B63DA01535D6FBE2A38142DC2D /* SwiftPaperTabs.modulemap */,
 				2AE8979BD3D40DF80C92F9E596C48C64 /* SwiftPaperTabs.xcconfig */,
 				C58EB2AFDFA238349FD4C002C52EA5D2 /* SwiftPaperTabs-Private.xcconfig */,
-				6FB6E7DA8F341DBB4202CA1262A0D50D /* SwiftPaperTabs-dummy.m */,
+				75DD707355811316B98999AE77A13FC5 /* SwiftPaperTabs-dummy.m */,
 				DC214DA836610861D83754B69DB6DEE6 /* SwiftPaperTabs-prefix.pch */,
-				8EBE1E2020BBC129FDB9DC97F9F57FE4 /* SwiftPaperTabs-umbrella.h */,
+				B7B28D045B5EE39BF11EF134257B60FD /* SwiftPaperTabs-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SwiftPaperTabs";
@@ -210,7 +234,7 @@
 				052D6FAA76A69565DF8C90F0959A9BE4 /* Pods_SwiftPaperTabs_Example.framework */,
 				CDEC7C428CB57D0A68B62E19C1C1E18F /* Pods_SwiftPaperTabs_Tests.framework */,
 				6A838DA5765673813E1176402B88A7AD /* SwiftPaperTabs.bundle */,
-				DC77094847C7AD663A410833598FAF60 /* SwiftPaperTabs.framework */,
+				F1357A60B8BE1C53020F04DAED1A743E /* SwiftPaperTabs.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,39 +257,22 @@
 			path = "Target Support Files/Pods-SwiftPaperTabs_Tests";
 			sourceTree = "<group>";
 		};
-		EEBBFB03C8704740EE7870205922E779 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4984C21D1BAB6FAA004142F0 /* SPTView.swift */,
-				4984C21F1BAB72B2004142F0 /* SPTView.xib */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		F60504FAE95A599AE07CEF399928BA32 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EEBBFB03C8704740EE7870205922E779 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		13FB24B50E8903D2B67F2CE08166CD66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FB7A54F67A14C393213464BCAAB093 /* SwiftPaperTabs-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8FD4CCEE648E514A47466BFE327553A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5C277D6A81E7E370CFD3944B5E832971 /* Pods-SwiftPaperTabs_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE780F018EF4521733EB31FB3E94B13B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61DDCD882B43F7F9C8220AB443BD980F /* SwiftPaperTabs-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +304,25 @@
 			productReference = 6A838DA5765673813E1176402B88A7AD /* SwiftPaperTabs.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		500C9390D1D0E1FAD05375FDA9DB09FA /* SwiftPaperTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D682678950788C7F252A86FA6C4BD4 /* Build configuration list for PBXNativeTarget "SwiftPaperTabs" */;
+			buildPhases = (
+				B936CFED26DFF5FB269EDAB2EAECFC32 /* Sources */,
+				148D04B65AB3043797A922C4BF2B2AF1 /* Frameworks */,
+				2653D732E9BB97FB44E75419A6ED6094 /* Resources */,
+				13FB24B50E8903D2B67F2CE08166CD66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A908AAF6DE8762AB3040C4EEC10F111E /* PBXTargetDependency */,
+			);
+			name = SwiftPaperTabs;
+			productName = SwiftPaperTabs;
+			productReference = F1357A60B8BE1C53020F04DAED1A743E /* SwiftPaperTabs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		9CEB910B6AAC9DCE244A70FC13674DA9 /* Pods-SwiftPaperTabs_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 849CEB41A167B0884FC9CEB38BC6F824 /* Build configuration list for PBXNativeTarget "Pods-SwiftPaperTabs_Tests" */;
@@ -308,7 +334,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				74AE067F631D37E4F7BFA07C079F82E4 /* PBXTargetDependency */,
+				7DC4D7B57CFC2037A8995522F5F0A7E2 /* PBXTargetDependency */,
 			);
 			name = "Pods-SwiftPaperTabs_Tests";
 			productName = "Pods-SwiftPaperTabs_Tests";
@@ -326,30 +352,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				248FE5520586C86ABC5228ED34D359DB /* PBXTargetDependency */,
+				7CF13AE3C666332A3110241F8419B983 /* PBXTargetDependency */,
 			);
 			name = "Pods-SwiftPaperTabs_Example";
 			productName = "Pods-SwiftPaperTabs_Example";
 			productReference = 052D6FAA76A69565DF8C90F0959A9BE4 /* Pods_SwiftPaperTabs_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D20A4FE6456428C9F5EB1C3CFD6D9145 /* SwiftPaperTabs */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E759DE32216ECB2CDADBB014B8F3312C /* Build configuration list for PBXNativeTarget "SwiftPaperTabs" */;
-			buildPhases = (
-				A5A7529B73919F2B46BE6850C939E1B2 /* Sources */,
-				32A59994432D362E417B40DBDDA347E4 /* Frameworks */,
-				1C7D73E61AD4442FC8941CA9488C977B /* Resources */,
-				BE780F018EF4521733EB31FB3E94B13B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8848CBDA877341738A9B0F0A3D5564F6 /* PBXTargetDependency */,
-			);
-			name = SwiftPaperTabs;
-			productName = SwiftPaperTabs;
-			productReference = DC77094847C7AD663A410833598FAF60 /* SwiftPaperTabs.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -358,7 +365,6 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = SPT;
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 			};
@@ -376,18 +382,18 @@
 			targets = (
 				A3E54115DD248D667CD812999C51CF14 /* Pods-SwiftPaperTabs_Example */,
 				9CEB910B6AAC9DCE244A70FC13674DA9 /* Pods-SwiftPaperTabs_Tests */,
-				D20A4FE6456428C9F5EB1C3CFD6D9145 /* SwiftPaperTabs */,
+				500C9390D1D0E1FAD05375FDA9DB09FA /* SwiftPaperTabs */,
 				40EB75EDFDC49101E120CCD60B1293C0 /* SwiftPaperTabs-SwiftPaperTabs */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1C7D73E61AD4442FC8941CA9488C977B /* Resources */ = {
+		2653D732E9BB97FB44E75419A6ED6094 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B21B0700FDD9DCFC81E29DA97BAAB0FE /* SwiftPaperTabs.bundle in Resources */,
+				819F0F4D21908CA1F0C2B65019C68B6E /* SwiftPaperTabs.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,8 +411,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FDFAF61BACB7D500EF9798 /* SPTView.swift in Sources */,
 				AE6E3EB5F796956C792D6EAC2EA2F9D9 /* Pods-SwiftPaperTabs_Example-dummy.m in Sources */,
-				4984C21E1BAB6FAA004142F0 /* SPTView.swift in Sources */,
+				49FDFAF71BACB7D900EF9798 /* SPTObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,14 +421,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5A7529B73919F2B46BE6850C939E1B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				991FA7151ED37A072AF18DD3964FC8FB /* SwiftPaperTabs-dummy.m in Sources */,
+				49FDFAF91BACB8BF00EF9798 /* SPTView.swift in Sources */,
+				49FDFAF81BACB8B800EF9798 /* SPTObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,30 +430,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FDFAFA1BACB8C900EF9798 /* SPTView.swift in Sources */,
 				80BD4D3883F88ADDE7B7B4CA8C8692C6 /* Pods-SwiftPaperTabs_Tests-dummy.m in Sources */,
+				49FDFAFB1BACB8CE00EF9798 /* SPTObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B936CFED26DFF5FB269EDAB2EAECFC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA87BF5E3437F3FF106FFE12540543A /* SPTObject.swift in Sources */,
+				6EF7B42C9280800D709823A9505EF8E9 /* SPTView.swift in Sources */,
+				FCC9437C472913666DB70DEE93FEB8AA /* SwiftPaperTabs-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		248FE5520586C86ABC5228ED34D359DB /* PBXTargetDependency */ = {
+		7CF13AE3C666332A3110241F8419B983 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftPaperTabs;
-			target = D20A4FE6456428C9F5EB1C3CFD6D9145 /* SwiftPaperTabs */;
-			targetProxy = 3883E088D0ED8D6887E5133B6D301338 /* PBXContainerItemProxy */;
+			target = 500C9390D1D0E1FAD05375FDA9DB09FA /* SwiftPaperTabs */;
+			targetProxy = E00D96C1551CFD92B6C7A91761ADF5ED /* PBXContainerItemProxy */;
 		};
-		74AE067F631D37E4F7BFA07C079F82E4 /* PBXTargetDependency */ = {
+		7DC4D7B57CFC2037A8995522F5F0A7E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftPaperTabs;
-			target = D20A4FE6456428C9F5EB1C3CFD6D9145 /* SwiftPaperTabs */;
-			targetProxy = 230C10639D7F78F4EA5D40A30F9B7DFE /* PBXContainerItemProxy */;
+			target = 500C9390D1D0E1FAD05375FDA9DB09FA /* SwiftPaperTabs */;
+			targetProxy = 6A0F20003B0A54163E76E314534FFA49 /* PBXContainerItemProxy */;
 		};
-		8848CBDA877341738A9B0F0A3D5564F6 /* PBXTargetDependency */ = {
+		A908AAF6DE8762AB3040C4EEC10F111E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SwiftPaperTabs-SwiftPaperTabs";
 			target = 40EB75EDFDC49101E120CCD60B1293C0 /* SwiftPaperTabs-SwiftPaperTabs */;
-			targetProxy = D4875DC99D3086806C4AB070CF367D08 /* PBXContainerItemProxy */;
+			targetProxy = 13F94D46D15067361ABB85269C1341F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -559,7 +572,34 @@
 			};
 			name = Debug;
 		};
-		78F61EC1049657C9B9B68B1C1B93476E /* Debug */ = {
+		587BBA4310576A7B570188CFBDC00243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C58EB2AFDFA238349FD4C002C52EA5D2 /* SwiftPaperTabs-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftPaperTabs/SwiftPaperTabs-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftPaperTabs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftPaperTabs/SwiftPaperTabs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftPaperTabs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E798D82DC39F5B879749EAA53FED35A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C58EB2AFDFA238349FD4C002C52EA5D2 /* SwiftPaperTabs-Private.xcconfig */;
 			buildSettings = {
@@ -629,33 +669,6 @@
 			};
 			name = Debug;
 		};
-		BA643365237DA3BBCB65F701BBB023F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C58EB2AFDFA238349FD4C002C52EA5D2 /* SwiftPaperTabs-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftPaperTabs/SwiftPaperTabs-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftPaperTabs/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftPaperTabs/SwiftPaperTabs.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftPaperTabs;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		C8A7FB9C2F83D2C853216CED3A86934F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C58EB2AFDFA238349FD4C002C52EA5D2 /* SwiftPaperTabs-Private.xcconfig */;
@@ -672,7 +685,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFD7854121E556C02ECF976B7302D6D6 /* Pods-SwiftPaperTabs_Example.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -702,7 +714,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 79B1841DB97E1748E740E04F70E3DE9E /* Pods-SwiftPaperTabs_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -741,6 +752,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		32D682678950788C7F252A86FA6C4BD4 /* Build configuration list for PBXNativeTarget "SwiftPaperTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E798D82DC39F5B879749EAA53FED35A /* Debug */,
+				587BBA4310576A7B570188CFBDC00243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6AB09D0C3BB003702C557006FD959301 /* Build configuration list for PBXNativeTarget "Pods-SwiftPaperTabs_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -755,15 +775,6 @@
 			buildConfigurations = (
 				A9991831DC16C282E7A4AB862323F2D9 /* Debug */,
 				315B7E4CD20B941E073ED975202D9003 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E759DE32216ECB2CDADBB014B8F3312C /* Build configuration list for PBXNativeTarget "SwiftPaperTabs" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78F61EC1049657C9B9B68B1C1B93476E /* Debug */,
-				BA643365237DA3BBCB65F701BBB023F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

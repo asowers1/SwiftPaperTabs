@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d1a-Zz-r5D" customClass="SPTView" customModule="Pods_SwiftPaperTabs_Example">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d1a-Zz-r5D" customClass="SPTView" customModule="SwiftPaperTabs">
+                                <rect key="frame" x="0.0" y="28" width="375" height="64"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="AQE-QO-14B"/>
@@ -27,7 +27,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="d1a-Zz-r5D" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="U7H-qW-Vn6"/>
+                            <constraint firstItem="d1a-Zz-r5D" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="28" id="U7H-qW-Vn6"/>
                             <constraint firstAttribute="trailing" secondItem="d1a-Zz-r5D" secondAttribute="trailing" id="goq-9M-O2C"/>
                             <constraint firstItem="d1a-Zz-r5D" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="wVE-b4-yUw"/>
                         </constraints>

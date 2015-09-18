@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DFB1447F8462423A36265FF /* Pods_SwiftPaperTabs_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D6664D89F9D1F99595DB8C /* Pods_SwiftPaperTabs_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4904F2AC1BAC9104003853F6 /* SwiftPaperTabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4904F2AB1BAC9104003853F6 /* SwiftPaperTabs.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		1231CDB6C7BAC5F32985DE6F /* Pods_SwiftPaperTabs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPaperTabs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC37E88B0FC37C255CBF904 /* SwiftPaperTabs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftPaperTabs.podspec; path = ../SwiftPaperTabs.podspec; sourceTree = "<group>"; };
+		4904F2AB1BAC9104003853F6 /* SwiftPaperTabs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftPaperTabs.framework; path = "Pods/../build/Debug-iphoneos/SwiftPaperTabs.framework"; sourceTree = "<group>"; };
+		4904F2AD1BACAB97003853F6 /* SwiftPaperTabs_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftPaperTabs_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftPaperTabs_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPaperTabs_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4904F2AC1BAC9104003853F6 /* SwiftPaperTabs.framework in Frameworks */,
 				1DFB1447F8462423A36265FF /* Pods_SwiftPaperTabs_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +103,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				4904F2AD1BACAB97003853F6 /* SwiftPaperTabs_Example-Bridging-Header.h */,
 			);
 			name = "Example for SwiftPaperTabs";
 			path = SwiftPaperTabs;
@@ -142,6 +147,7 @@
 		BE3133EEA3BAC941AEF37CC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4904F2AB1BAC9104003853F6 /* SwiftPaperTabs.framework */,
 				92D6664D89F9D1F99595DB8C /* Pods_SwiftPaperTabs_Example.framework */,
 				1231CDB6C7BAC5F32985DE6F /* Pods_SwiftPaperTabs_Tests.framework */,
 			);
@@ -490,11 +496,18 @@
 			baseConfigurationReference = 71468A8E0F541711FFC073FC /* Pods-SwiftPaperTabs_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SwiftPaperTabs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPaperTabs/SwiftPaperTabs_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -503,11 +516,17 @@
 			baseConfigurationReference = F37DFC36F4F105D1FEC5D92A /* Pods-SwiftPaperTabs_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SwiftPaperTabs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPaperTabs/SwiftPaperTabs_Example-Bridging-Header.h";
 			};
 			name = Release;
 		};
